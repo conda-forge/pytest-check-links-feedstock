@@ -1,5 +1,5 @@
 {% set name = "pytest_check_links" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name.replace("_", "-") }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ac6929396f4a74fa41a27493c4aa309987c1c73d6e1ecf0f9c7c59001b99e495
+  sha256: 0284a349473ccd941404df74a676a7e3db8e510ddd65f9c53b9eac32e4fb39da
 
 build:
   number: 0
