@@ -5,7 +5,7 @@ Home: https://pypi.org/project/pytest-check-links
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Check links in files
 
