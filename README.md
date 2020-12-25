@@ -5,11 +5,11 @@ Home: https://pypi.org/project/pytest-check-links
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-check-links-feedstock/blob/master/LICENSE.txt)
 
 Summary: Check links in files
 
-
+Development: https://github.com/jupyterlab/pytest-check-links
 
 Current build status
 ====================
