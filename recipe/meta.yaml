@@ -1,5 +1,5 @@
 {% set name = "pytest_check_links" %}
-{% set version = "0.4.4" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name.replace("_", "-") }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: aa5711353cc1b0caf6f18caf3c8819d2853f8564aa3abba8ebee74a8d1ece0f2
+  sha256: cdeb33ef76c95551c72fdab911d08f632f7f08b15bb1beb1956a6c0ba782b543
 
 build:
   number: 0
@@ -20,7 +20,7 @@ requirements:
   host:
     - pbr >=1.9
     - pip
-    - python >=3.5
+    - python >=3.6
     - setuptools >=17.1
   run:
     - docutils
@@ -28,7 +28,7 @@ requirements:
     - nbconvert
     - nbformat
     - pytest >=4.6
-    - python >=3.5
+    - python >=3.6
     - requests
 
 test:
