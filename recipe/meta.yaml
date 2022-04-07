@@ -19,7 +19,7 @@ requirements:
   host:
     - pbr >=1.9
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools >=17.1
   run:
     - docutils
@@ -27,7 +27,7 @@ requirements:
     - nbconvert
     - nbformat
     - pytest >=7
-    - python >=3.6
+    - python >=3.7
     - requests
 
 test:
