@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://github.com/jupyterlab/pytest-check-links
-  summary: Check links in files
+  summary: pytest plugin that checks URLs for HTML-containing files.
   license: BSD-3-Clause
   license_file: LICENSE
 
