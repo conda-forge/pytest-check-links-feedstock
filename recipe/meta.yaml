@@ -1,4 +1,4 @@
-{% set version = "0.7.1" %}
+{% set version = "0.8.0" %}
 
 package:
   name: pytest-check-links
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytest_check_links/pytest_check_links-{{ version }}.tar.gz
-  sha256: b5c45ced56865a76d392f29892ad6af4dfba11111a87a669ca69378aeaca30eb
+  sha256: 1911667d9d1310cb90346d4f3bbf67d300df811b397308fcca400b117e889e51
 
 build:
   number: 0
@@ -17,10 +17,9 @@ build:
 
 requirements:
   host:
-    - pbr >=1.9
+    - hatchling >=1.5
     - pip
     - python >=3.7
-    - setuptools >=17.1
   run:
     - docutils
     - html5lib
