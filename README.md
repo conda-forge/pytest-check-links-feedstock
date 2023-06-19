@@ -1,11 +1,11 @@
-About pytest-check-links
-========================
+About pytest-check-links-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-check-links-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jupyterlab/pytest-check-links
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-check-links-feedstock/blob/main/LICENSE.txt)
 
 Summary: pytest plugin that checks URLs for HTML-containing files.
 
