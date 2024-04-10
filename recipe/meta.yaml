@@ -1,4 +1,4 @@
-{% set version = "0.9.0" %}
+{% set version = "0.10.1" %}
 
 package:
   name: pytest-check-links
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/p/pytest_check_links/pytest_check_links-{{ version }}.tar.gz
-  sha256: 1dc86f01add36649ae595a3ef562908b210c3787a25857fb97b75b9f7d03415e
+  sha256: 7358dd92c8e6c737c8749ec87f5a27c32390445d43182673f89247a1a34d776d
 
 build:
   number: 0
@@ -21,13 +21,13 @@ requirements:
     - pip
     - python >=3.8
   run:
-    - docutils
-    - html5lib
-    - nbconvert
-    - nbformat
-    - pytest >=7
+    - docutils >=0.20.1
+    - html5lib >=1.1
+    - nbconvert >=7.1
+    - nbformat >=5.1
+    - pytest >=7.0,<9
     - python >=3.8
-    - requests
+    - requests >=2.22
 
 test:
   imports:
