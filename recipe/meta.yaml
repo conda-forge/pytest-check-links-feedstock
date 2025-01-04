@@ -5,11 +5,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/p/pytest_check_links/pytest_check_links-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/pytest_check_links/pytest_check_links-{{ version }}.tar.gz
   sha256: 7358dd92c8e6c737c8749ec87f5a27c32390445d43182673f89247a1a34d776d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   entry_points:
@@ -19,14 +19,14 @@ requirements:
   host:
     - hatchling >=1.5
     - pip
-    - python >=3.8
+    - python {{ python_min }}
   run:
     - docutils >=0.20.1
     - html5lib >=1.1
     - nbconvert >=7.1
     - nbformat >=5.1
     - pytest >=7.0,<9
-    - python >=3.8
+    - python >={{ python_min }}
     - requests >=2.22
 
 test:
@@ -37,6 +37,7 @@ test:
     - pytest-check-links --version
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/jupyterlab/pytest-check-links
